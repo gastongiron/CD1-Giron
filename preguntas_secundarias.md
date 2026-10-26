@@ -8,6 +8,18 @@
 
 ### Análisis del gráfico:
 El gráfico de barras horizontales muestra que la gran mayoría de las personas mayores de 16 años se encuentran bajo la categoría de `empleo_formal`, seguido por `jubilado_o_pensionado` y `empleo_informal`. El grupo de desocupados que busca trabajo representa una porción minoritaria dentro de toda la estructura laboral de la muestra (el **3.71%** mencionado).
+## Frecuencias de la variable principal (`r5`)
+
+| Slug | Registros | Porcentaje |
+| :--- | :---: | :---: |
+| `empleo_formal` | 178 | 45.18% |
+| `jubilado_o_pensionado` | 55 | 13.96% |
+| `estudia_y_no_trabaja` | 39 | 9.90% |
+| `empleo_informal` | 39 | 9.90% |
+| `cuentapropista` | 36 | 9.14% |
+| `tareas_del_hogar_o_cuidado_sin_remun` | 20 | 5.08% |
+| `desocupado_busca_trabajo` | 14 | 3.71% |
+| `otra_situaci_n` | 13 | 3.30% |
 
 ![Distribución de la Situación Laboral]![Gráfico Desempleo](desempleo%20grafico.png)
 
