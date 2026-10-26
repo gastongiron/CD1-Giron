@@ -28,7 +28,10 @@ El gráfico de barras horizontales muestra que la gran mayoría de las personas 
 ## Pregunta 2: ¿Esa proporción cambia según el nivel educativo (r4)?
 
 Sí, la proporción cambia de manera notable según el nivel educativo alcanzado. Ordenados de mayor a menor tasa de desocupación:
+
 ![Porcentaje de Desocupación por Nivel Educativo](desocupacion%20nivel%20educativo.png)
+
+
 1. **Terciario o Universitario Incompleto:** Presenta la tasa más alta con un **10.00%** de desocupación (5 desocupados de 50 personas).
 2. **Terciario o Universitario Completo:** La desocupación desciende al **4.08%** (4 desocupados de 98 personas).
 3. **Secundario Incompleto:** Presenta un **3.17%** (2 desocupados de 63 personas).
