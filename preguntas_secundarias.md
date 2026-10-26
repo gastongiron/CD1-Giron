@@ -40,4 +40,4 @@ Sí, la proporción cambia de manera notable según el nivel educativo alcanzado
 * Quienes completaron el nivel superior (terciario/universitario) logran reducir esa desocupación a menos de la mitad (**4.08%**).
 * Los niveles vinculados a la educación primaria o sin escolaridad no registran desocupados activos buscando trabajo en esta muestra, lo cual suele correlacionarse con que estas personas se declaran mayormente jubiladas, inactivas o en empleos informales de subsistencia.
 
-![Porcentaje de Desocupación por Nivel Educativo](aqui_va_el_nombre_o_enlace_de_tu_imagen_r4.png)
+![Porcentaje de Desocupación por Nivel Educativo](desocupacion%20nivel%20educativo.png)
