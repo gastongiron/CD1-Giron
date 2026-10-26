@@ -1,36 +1,31 @@
-# Respuestas a Preguntas Secundarias – Girón
+# 📊 Análisis de Preguntas Secundarias – Censo de Desempleo (Freyre)
 
-- **Registro del proyecto:** persona
-- **Archivo del tablón:** mi_tablon.csv
-- **Filas procesadas:** 473
-- **Tema:** Análisis desagregado del desempleo en Freyre
+## Pregunta 1: ¿Qué proporción de las personas de 16 años o más está desocupada y busca trabajo (r5)?
 
-Utilizando el tablón consolidado, se ejecutaron los cruces estadísticos en Python para responder a cada una de las dimensiones secundarias planteadas en el alcance:
+* **Población analizada:** Personas de 16 años o más con datos válidos en la variable `r5`. En total, **377 personas** cumplen con esta condición.
+* **Cantidad de desocupados:** 14 personas.
+* **Porcentaje de desocupación (Tasa):** **3.71%**.
 
-## 1. Distribución por Nivel Educativo (`r4`)
-La proporción de personas desocupadas sobre el total de activos según su nivel de instrucción formal en Freyre es:
-- `terciario_o_universitario_incompleto`: 10.00%
-- `terciario_o_universitario_completo`: 4.04%
-- `secundario_completo`: 3.03%
-- `secundario_incompleto`: 3.17%
-- `primario_completo`: 0.00%
-- `primario_incompleto`: 0.00%
-- `sin_escolaridad`: 0.00%
+### Análisis del gráfico:
+El gráfico de barras horizontales muestra que la gran mayoría de las personas mayores de 16 años se encuentran bajo la categoría de `empleo_formal`, seguido por `jubilado_o_pensionado` y `empleo_informal`. El grupo de desocupados que busca trabajo representa una porción minoritaria dentro de toda la estructura laboral de la muestra (el **3.71%** mencionado).
 
-## 2. Impacto por Tramos Etarios (Edad Calculada)
-El desempleo medido por ciclos de vida muestra un impacto fuertemente concentrado en los segmentos más jóvenes:
-- **Jóvenes (16 a 24 años):** 9.23%
-- **Adultos (25 a 59 años):** 3.21%
-- **Adultos mayores (60 años o más):** 0.00%
+![Distribución de la Situación Laboral](aqui_va_el_nombre_o_enlace_de_tu_imagen_r5.png)
 
-## 3. Análisis de Brecha de Género (`r3`)
-Al evaluar las tasas de desocupación según la identidad de género declarada en el censo, se constata una marcada brecha en detrimento de las mujeres:
-- **Mujer:** 4.76%
-- **Varón:** 2.40%
-- **No binario:** 0.00%
+---
 
-## 4. Estrategias Alternativas y Autoempleo (`r5c` y `r12`)
-Al analizar exclusivamente al subconjunto de personas que declararon estar desocupadas y buscando trabajo:
-- **Proporción que realiza changas:** 0.00%
-- **Proporción con emprendimientos propios:** 0.00%
-*Nota de calidad: Los registros de desocupados puros en la muestra local no reflejan la realización de actividades secundarias compensatorias en el período relevado.*
+## Pregunta 2: ¿Esa proporción cambia según el nivel educativo (r4)?
+
+Sí, la proporción cambia de manera notable según el nivel educativo alcanzado. Ordenados de mayor a menor tasa de desocupación:
+
+1. **Terciario o Universitario Incompleto:** Presenta la tasa más alta con un **10.00%** de desocupación (5 desocupados de 50 personas).
+2. **Terciario o Universitario Completo:** La desocupación desciende al **4.08%** (4 desocupados de 98 personas).
+3. **Secundario Incompleto:** Presenta un **3.17%** (2 desocupados de 63 personas).
+4. **Secundario Completo:** Tiene un **3.03%** (3 desocupados de 99 personas).
+5. **Primario Completo, Primario Incompleto y Sin escolaridad:** Registran un **0.00%** de desocupación en esta muestra activa.
+
+### Análisis del gráfico y conclusiones:
+* Sorpresivamente, el nivel con mayor desocupación relativa es el **superior incompleto (10%)**. Esto suele suceder en poblaciones jóvenes que aún están estudiando y buscando insertarse formalmente en el mercado laboral, o que enfrentan fricción al buscar empleos calificados.
+* Quienes completaron el nivel superior (terciario/universitario) logran reducir esa desocupación a menos de la mitad (**4.08%**).
+* Los niveles vinculados a la educación primaria o sin escolaridad no registran desocupados activos buscando trabajo en esta muestra, lo cual suele correlacionarse con que estas personas se declaran mayormente jubiladas, inactivas o en empleos informales de subsistencia.
+
+![Porcentaje de Desocupación por Nivel Educativo](aqui_va_el_nombre_o_enlace_de_tu_imagen_r4.png)
